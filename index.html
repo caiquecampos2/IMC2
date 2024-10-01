@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <style>
+        label{
+          background-color:rgb(97, 247, 255);
+          border: 1px solid rgb(0, 0, 0);
+           border: 1px solid rgb(0, 0, 0);
+    }
+        h1 {
+         background-color: lightblue;
+         width: 250px;
+         border: 3px solid rgb(0, 0, 0);
+        }
+       button{
+        color:rgb(0, 0, 0);
+        background-color: rgb(100, 139, 255);
+        box-shadow: 2px 2px 2px rgb(61, 166, 231);
+        border: 2px solid rgb(0, 0, 0);
+       }
+       div{
+        background-color:rgb(198, 240, 253);
+        width: 250px;
+        height: 300px;
+        border: 2px solid rgb(0, 0, 0);
+
+       }
+        </style>
+</head>
+<body>
+    <form action="med.php" method="post">
+        <center>
+            <h1>Veja seu IMC!!!</h1>
+            <div>
+        <br>
+        <label>Peso: </label>
+        <br>
+        <br>
+        <input type="number" step="0.01" name="num1" required>
+        <br>
+        <br>
+        <label>Altura: </label>
+        <br>
+        <br>
+        <input type="number" step="0.01" name="num2" required>
+        <br>
+        <br>
+        <button type="submit">Calcular</button> 
+        <button type="reset">Limpar</button>
+        <br>
+        <br>
+        <img src="im.png" width="200" height="75">
+
+        </center>
+    </div>
+    </form>
+</body>
+</html>
